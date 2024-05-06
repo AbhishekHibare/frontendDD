@@ -1,0 +1,32 @@
+/* Navbar.css */
+
+.navbar {
+    display: flex; /* Use flex layout for horizontal alignment */
+    justify-content: space-between; /* Space between logo and links */
+    align-items: center; /* Vertically align items */
+    padding: 10px 20px; /* Padding around the navbar */
+    background-color: #333; /* Background color for the navbar */
+    color: white; /* Text color */
+  }
+  
+  .navbar-logo img {
+    height: 70px; /* Set logo height */
+    cursor: pointer; /* Change cursor to indicate it's clickable */
+  }
+  
+  .navbar-links {
+    display: flex; /* Flex layout for horizontal links */
+    gap: 20px; /* Space between links */
+  }
+  
+  .navbar-links a {
+    color: white; /* Set link color */
+    text-decoration: none; /* Remove underline */
+    font-weight: bold; /* Bold text */
+    transition: color 0.3s; /* Smooth transition on hover */
+  }
+  
+  .navbar-links a:hover {
+    color: #4a90e2; /* Change color on hover */
+  }
+  

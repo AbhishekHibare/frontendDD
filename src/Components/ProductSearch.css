@@ -1,0 +1,40 @@
+/* ProductSearch.css */
+
+.product-search {
+    text-align: center; /* Center the text and components */
+    margin: 20px auto; /* Provide some margin around the component */
+    max-width: 1300px; /* Limit the width of the component */
+    padding: 10px; /* Add padding inside the component */
+    border: 1px solid #ddd; /* Add a light border */
+    border-radius: 10px; /* Round the corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Add a subtle shadow */
+    background-color: white; /* Set background color */
+  }
+  
+  .search-input {
+    width: 95%; /* Set width to occupy 80% of the component */
+    padding: 10px; /* Add padding inside the input */
+    border: 1px solid #ccc; /* Set border style */
+    border-radius: 5px; /* Round the corners */
+    outline: none; /* Remove the outline on focus */
+    transition: border-color 0.3s; /* Smooth transition on focus */
+  }
+  
+  .search-input:focus {
+    border-color: #4a90e2; /* Change border color on focus */
+  }
+  
+  .product-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+  }
+  
+  .product-item {
+    padding: 8px 0; /* Add vertical padding to each item */
+    border-bottom: 1px solid #eee; /* Light border between items */
+  }
+  
+  .product-item:last-child {
+    border-bottom: none; /* Remove border for the last item */
+  }
+  
